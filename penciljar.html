@@ -1,0 +1,57 @@
+<html>
+     <head>
+         <title> Pencil Jar</title>
+         <style>
+             .box{
+                 position: absolute;
+                 top: 0;
+                 bottom: 0;
+                 left: 0;
+                 right: 0;
+                 margin: auto;
+                 width: 250px;
+                 height: 400px;
+             }
+             .jarBottom{
+                 width: 50%;
+                 height: 1%;
+                 background: skyblue;
+                 position: absolute;
+                 bottom: 0%;
+                 left: 25%;
+                 opacity: 0.75%;
+             }
+
+             .jarwalls{
+                 height: 60%;
+                 width: 80%;
+                 background: skyblue;
+                 position: absolute;
+                 bottom: 0.5%;
+                 opacity: 50%;
+                 border-radius: 3rem;
+                 z-index: 3;
+
+             }
+             .jarTop{
+                 width: 50%;
+                 height: 5%;
+                 background: skyblue;
+                 position: absolute;
+                 bottom: 60%;
+                 left: 15%;
+             }
+         </style>
+     </head>
+     <body>
+         <div class="box">
+             <div class="jar">
+                 <div class="jarBottom"></div>
+                 <div class="jarwalls"></div>
+                 <div class="jarTop"></div>
+             </div>
+             <div class="pencil"></div>
+             <div class="scissors"></div>
+         </div>
+     </body>
+</html>
